@@ -1,0 +1,9 @@
+iamUser:
+  Type: AWS::IAM::User
+  Properties:
+    Path: /
+    Groups:
+      - groupname
+    LoginProfile:
+      Password: 
+      PasswordResetRequired: true|false
